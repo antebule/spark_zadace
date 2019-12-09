@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+}
+
+header, footer{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+header{
+	background-color: blue;
+}
+
+#register{
+	background-color: green;
+}
+
+#login{
+	background-color: yellow;
+}
+
+footer{
+	background-color: red;
+}
+
+button{
+	float: right;
+	margin-right: 30px;
+	height: 30px;
+	width: 60px;
+	border: none;
+	margin-top: 15px;
+}
+
+body{
+	height: 600px;
+	width: 100%;
+}
+
+main{
+	position: relative; 
+	background-color: gray;
+	height: 400px;
+	top: 100px;
+	margin-bottom: 100px;
+}
+
+#box{
+	height:300px;
+	width:300px;
+	background-color: blue;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+p{
+	color: white;
+}
